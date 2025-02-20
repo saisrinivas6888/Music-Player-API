@@ -16,7 +16,7 @@ To use this API in your C++ project, follow these steps:
 
 1. Clone this repository to your local machine:
 
-git clone https://github.com/yourusername/music-player-api.git
+git clone https://github.com/saisrinivas6888/music-player-api.git
 
 c
 Copy code
@@ -24,6 +24,29 @@ Copy code
 2. Include the necessary files in your project and link them accordingly.
 3. Build your project with the provided source files.
 
+#CHnages/Updates
+Key Updates:
+Menu-Driven Interface:
+
+Users can now interact with the music player through a menu.
+
+Options include adding songs, removing songs, playing the entire playlist, playing a specific song, and displaying the playlist.
+
+Input Validation:
+
+Added checks to ensure valid input for song indices and other user inputs.
+
+Improved Playlist Management:
+
+Users can now remove songs by index.
+
+Users can view the current playlist with song details.
+
+Better Code Structure:
+
+Added a display() method to the Song class for cleaner output.
+
+Improved error messages and user feedback.
 ## Usage
 
 Here's a simple example of how to use the music player API:
